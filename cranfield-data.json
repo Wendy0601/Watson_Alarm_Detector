@@ -1,0 +1,147 @@
+{
+  "add" : {
+    "doc" : {
+      "id" : 1,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 10:44:07	733	xxxxxxxx	115 KV	NORTHBUS	KV1 B1	L1LimV B 	103.74	109.00	1	10:44:07  MCINTYRE        115 KV   NORTHBUS        LOW LIMIT       EXCEEDED   103.74    KV   LIM=   109.00 KV	",
+      "title" : "LOW LIMIT       EXCEEDED"
+    } 
+  },
+  "add" : {
+    "doc" : {
+      "id" : 2,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 13:56:40	8	xxxxxxxx	115 KV	BUS 1		KV1 B1	L1LimV B 	118.70	 109.00	1	13:56:40  ROCH S80-STA.   115 KV   BUS 1           LOW LIMIT       CLEARED    118.70    KV   LIM=   109.00 KV	",
+      "title" : " CLEARED "
+    } 
+  },
+  "add" : {
+    "doc" : {
+      "id" : 3,
+     "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 13:57:44	145	xxxxxxxx	115 KV	BUS 1		KV1 B1	L1LimV B 	35.30	 109.00	1	13:57:44  ROCH S80-STA.   115 KV   BUS 1           LOW LIMIT       EXCEEDED    35.30    KV   LIM=   109.00 KV",
+      "title" : "LOW LIMIT       EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 4,
+     "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 17:24:21	965	xxxxxxxx	765 KV	BUS 7 BE	KV1 B2	U1LimV B	773.84	 773.00	9	17:24:21  MASSENA         765 KV   BUS 7BE         UPPER LIMIT 1   EXCEEDED   773.84    KV   LIM=   773.00 KV",
+      "title" : "LOW LIMIT       EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 5,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 17:25:15	239	xxxxxxxx	345 KV	BUS X OP1	KV1 B 	U1LimV B	362.01	362.00	9	17:25:15  BUCHANAN        345 KV   BUS X           PRE  OP-1 HIGH  EXCEEDED   362.01    KV   LIM=   362.00 KV",
+      "title" : "PRE  OP-1 HIGH  EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 6,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 17:56:16	22	xxxxxxxx	115 KV	BUS 1		KV1 B1	L1LimV B 	120.80	109.00	1	17:56:16  ROCH S80-STA.   115 KV   BUS 1           LOW LIMIT       CLEARED    120.80    KV   LIM=   109.00 KV",
+      "title" : " CLEARED  "
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 7,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 18:18:25	685	xxxxxxxx	115 KV	NORTHBUS	KV1 B1	L1LimV B	108.94	109.00	1	18:18:25  MCINTYRE        115 KV   NORTHBUS        LOW LIMIT       EXCEEDED   108.94    KV   LIM=   109.00 KV",
+      "title" : "LOW LIMIT       EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 8,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 18:18:31	664	xxxxxxxx	115 KV	NORTHBUS	KV1 B1	L1LimV B	116.42	109.00	1	18:18:31  MCINTYRE        115 KV   NORTHBUS        LOW LIMIT       CLEARED    116.42    KV   LIM=   109.00 KV",
+      "title" : " CLEARED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 9,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 18:49:03	132	xxxxxxxx	765 KV	NORTHBUS	KV1 B2	U1LimV B	774.35	773.00	9	18:49:03  MARCY           765 KV   NORTH BUS (7BN) UPPER LIMIT 1   EXCEEDED   774.35    KV   LIM=   773.00 KV",
+      "title" : "UPPER LIMIT 1   EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 10,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 18:52:43	134	xxxxxxxx	765 KV	NORTHBUS	KV1 B2	U1LimV B	768.65	774.00	9	18:52:43  MARCY           765 KV   NORTH BUS (7BN) UPPER LIMIT 1   CLEARED    768.65    KV   LIM=   774.00 KV",
+      "title" : " CLEARED "
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 11,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 19:52:13	671	xxxxxxxx	115 KV	BUS B		KV1 B1	U1LimV B	120.03	120.00	9	19:52:13  FIVE MILE       115 KV   BUS B           HIGH LIMIT      EXCEEDED   120.03    KV   LIM=   120.00 KV",
+      "title" : "HIGH LIMIT      EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 12,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 20:09:49	711	xxxxxxxx	115 KV	NORTHBUS	KV1 B1	L1LimV B	81.02	109.00	1	20:09:49  MCINTYRE        115 KV   NORTHBUS        LOW LIMIT       EXCEEDED    81.02    KV   LIM=   109.00 KV",
+      "title" : "LOW LIMIT EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 13,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 20:09:55	748	xxxxxxxx	115 KV	NORTHBUS	KV1 B1	L1LimV B	116.42	109.00	1	20:09:55  MCINTYRE        115 KV   NORTHBUS        LOW LIMIT       CLEARED    116.42    KV   LIM=   109.00 KV",
+      "title" : " CLEARED  "
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 14,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/13/2017 20:14:02	5	xxxxxxxx        765 KV	BUS 7 BE	KV1 B2	U1LimV B	770.98	774.00	9	20:14:02  MASSENA     765 KV   BUS 7BE         UPPER LIMIT 1   CLEARED    770.98    KV   LIM=   774.00 KV",
+      "title" : " CLEARED "
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 15,
+      "author" : "",
+      "bibliography" : "",
+      "body" : "08/14/2017 01:02:21	237	xxxxxxxx	345 KV	BUS 2 OP1	KV1 B	U1LimV B	360.10	359.00	9	01:02:21  ROCH S80-STA.   345 KV   BUS 2           PRE  OP-1 HIGH  EXCEEDED   360.10    KV   LIM=   359.00 KV",
+      "title" : "PRE  OP-1 HIGH  EXCEEDED"
+    }
+  },
+  "add" : {
+    "doc" : {
+      "id" : 16,
+     "author" : "",
+      "bibliography" : "",
+      "body" : "08/14/2017 01:02:28	403	xxxxxxxx	345 KV	BUS 1		KV1 B1	U1LimV B	362.04	362.00	9	01:02:28  HURLEY          345 KV   BUS 1           HIGH LIMIT      EXCEEDED   362.04    KV   LIM=   362.00 KV",
+      "title" : "HIGH LIMIT      EXCEEDED "
+    }
+  }, 
+  "commit" : { }
+}

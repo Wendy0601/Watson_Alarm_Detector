@@ -1,0 +1,4 @@
+"Which events exceed the low limit","1","3","3","2","7","2","12","1" 
+"Which events exceed high or upper limit","4","3","5","2","9","2","11","2","15","2","16","1"
+"Whether are there events exceeding limit","1","3","3","2","7","2","12","1","4","0" 
+"Are these limits cleared","1","3","3","2","7","2","12","2","4","0" 

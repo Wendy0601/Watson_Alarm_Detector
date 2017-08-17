@@ -1,30 +1,30 @@
-credential "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx"
-"solr_cluster_id":"sc932cffbc_b213_4c1c_b550_62eb94c9fb7b"
+credential "username":"password"
+"solr_cluster_id":"solr_ID"
 path train.py: \Users\Lab\IBM-Watson-Retrieve-And-Rank-master\IBM-Watson-Retrieve-And-Rank-master\3sampleqa
-rank_id: "7ff711x34-rank-1095"
+rank_id: "rank_ID"
  
-curl -X POST -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters" -d ""
+curl -X POST -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters" -d ""
  
-curl -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b" 
+curl -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID" 
 
-curl -X POST -H "Content-Type: application/zip" -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b/config/example_config" --data-binary @/Users/Lab/solr-config.zip
+curl -X POST -H "Content-Type: application/zip" -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID/config/example_config" --data-binary @/Users/Lab/solr-config.zip
 
-curl -X POST -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b/solr/admin/collections" -d "action=CREATE&name=example_collection&collection.configName=example_config"
+curl -X POST -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID/solr/admin/collections" -d "action=CREATE&name=example_collection&collection.configName=example_config"
 
-curl -X POST -H "Content-Type: application/json" -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b/solr/example_collection/update" --data-binary @/Users/Lab/IBM-Watson-Retrieve-And-Rank-master/cranfield-data.json
+curl -X POST -H "Content-Type: application/json" -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID/solr/example_collection/update" --data-binary @/Users/Lab/IBM-Watson-Retrieve-And-Rank-master/cranfield-data.json
 
-python C:/Users/Lab/IBM-Watson-Retrieve-And-Rank-master/train.py -u 3e85d6f2-f0d9-4366-8774-d68df64b4c17:biHcM5p8Elcx -i /Users/Lab/IBM-Watson-Retrieve-And-Rank-master/cranfield-gt_copy.csv -c sc932cffbc_b213_4c1c_b550_62eb94c9fb7b -x example_collection -n "example_ranker"
+python C:/Users/Lab/IBM-Watson-Retrieve-And-Rank-master/train.py -u username:password -i /Users/Lab/IBM-Watson-Retrieve-And-Rank-master/cranfield-gt_copy.csv -c solr_ID -x example_collection -n "example_ranker"
 
-https://3e85d6f2-f0d9-4366-8774-d68df64b4c17:biHcM5p8Elcx@gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b/solr/example_collection/select?q=events that  exceed the limit?&wt=json&fl=id,title
+https://username:password@gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID/solr/example_collection/select?q=events that  exceed the limit?&wt=json&fl=id,title
 
-curl -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/rankers/"7ff711x34-rank-1095""
+curl -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/rankers/"rank_ID""
 
-https://3e85d6f2-f0d9-4366-8774-d68df64b4c17:biHcM5p8Elcx@gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b/solr/example_collection/fcselect?ranker_id=7ff711x34-rank-1095&q=what is the basic mechanism of the transonic aileron buzz&wt=json&fl=id,title
+https://username:password@gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID/solr/example_collection/fcselect?ranker_id=rank_ID&q=what is the basic mechanism of the transonic aileron buzz&wt=json&fl=id,title
 
 
 clear the cluster
-curl -i -X DELETE -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/sc932cffbc_b213_4c1c_b550_62eb94c9fb7b"
-curl -X DELETE -u "3e85d6f2-f0d9-4366-8774-d68df64b4c17":"biHcM5p8Elcx" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1//rankers/7ff711x34-rank-1091" 
+curl -i -X DELETE -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/solr_ID"
+curl -X DELETE -u "username":"password" "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1//rankers/7ff711x34-rank-1091" 
  
  
 website:https://www.ibm.com/watson/developercloud/doc/retrieve-rank/tutorial.html
